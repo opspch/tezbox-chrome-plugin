@@ -4,7 +4,7 @@ window.addEventListener("message", function(event) {
     return;
   listener[event.data.type](event.data.response);
 }, false);
-window.tbapi = {
+window.tbapi_testnet = {
   status : function(){
     return new Promise(function (resolve, reject) {
       listener["status"] = resolve;
