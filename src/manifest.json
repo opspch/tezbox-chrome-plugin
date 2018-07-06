@@ -1,8 +1,8 @@
 {
-    "name": "TezBox",
-    "version": "2.0.9",
+    "name": "Testnet TezBox",
+    "version": "2.0.11",
     "manifest_version": 2,
-    "description": "Secure Tezos Wallet for Chrome",
+    "description": "Testnet Tezos Wallet for Chrome",
     "icons": {
         "16": "images/icon-16.png",
         "128": "images/icon-128.png"
@@ -16,7 +16,7 @@
             "19": "images/icon-19.png",
             "38": "images/icon-38.png"
         },
-        "default_title": "TezBox Wallet",
+        "default_title": "Testnet TezBox Wallet",
         "default_popup": "popup.html"
     },
     "externally_connectable": {
