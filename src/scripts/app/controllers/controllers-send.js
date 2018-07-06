@@ -53,7 +53,7 @@ app.controller('SendController', ['$scope', '$location', 'Storage', function($sc
       $scope.$apply();
     });
     $scope.send = function(){
-        if (!$scope.amount || !$scope.toaddress) {
+        if ($scope.amount === undefined || $scope.toaddress === undefined) {
           alert("Please enter amount and a destination");
           return;
         }
