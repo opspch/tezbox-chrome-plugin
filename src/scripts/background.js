@@ -9,7 +9,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
       if (typeof tb.seed == 'undefined') {
         sendResponse({data: "locked"});
       } else {
-        sendResponse({data: localStorage.getItem("counter")});
+        sendResponse({data: "available"});
       }
     } else if (request.method == "getActiveAccount"){
       eztz.rpc.getBalance(tb.account.tz1)
